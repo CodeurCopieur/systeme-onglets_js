@@ -15,7 +15,7 @@ function action(){
   //on réactive la div voulu
   document.querySelector('#tab'+ num).classList.add('active');
 
-  //on masque la div actif contenant la classe active
+  //on masque le li actif contenant la classe active
   document.querySelector('#tabs .tab-titles li.active').classList.remove('active');
 
   this.classList.add('active')
